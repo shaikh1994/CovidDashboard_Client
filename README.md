@@ -1,5 +1,46 @@
+# Full Stack Covid Info Project 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Stack 
 
+* Frontend:
+  * **NextJS** 
+  * **React**
+  * **TypeScript**
+  * **TailWind CSS**
+
+* Backend:
+  * **NextJS** 
+  * **NodeJs**
+  * **Express**
+
+* Server-side and Graph:
+  * **Azure Webapp** 
+  * **MySQL**
+  * **React-plotly**
+
+## Features
+* Node JS  backend with:
+  * **Secure password** hashing by default
+  * **JWT token** authentication
+  * **SQLAlchemy** models (independent of Flask extensions, so they can be used with Celery workers directly)
+  * Basic starting models for users and groups (modify and remove as you need)
+  * **CORS** (Cross Origin Resource Sharing)
+  * Azure MySQL for storing user info. 
+ 
+    
+* React frontend:
+  * Generated with React
+  * JWT Authentication handling
+  * Login view
+  * After login, main dashboard view
+  * **TypeScript**
+ 
+* Graph:
+  * Graph generated with React Plotly shoing differnt line chart 
+  * Sidebar to choose Country and Date
+  * Multitab graph with different parameters
+    
+    
 ## Getting Started
 
 First, run the development server:
