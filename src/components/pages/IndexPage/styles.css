@@ -1,0 +1,9 @@
+/* styles.css */
+.background-image {
+    background-image: url("cool-background.png"); /* Replace with the actual path to your image file */
+    background-size: cover; /* Adjust as needed */
+    background-repeat: no-repeat;
+    background-position: center center;
+    /* You can add more CSS properties to style the background image here */
+  }
+  
