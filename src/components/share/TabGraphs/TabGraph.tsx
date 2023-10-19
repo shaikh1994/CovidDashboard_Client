@@ -83,7 +83,7 @@ const TabGraph = ({
 
   return (
     <div className="w-full h-full">
-      <Tabs value={currTab} onTabChange={(value) => setCurrTab(value)}>
+      <Tabs value={currTab} onTabChange={(value) => value && typeof value === 'string' ? setCurrTab(value) : null}>
         <Tabs.List>
           {tabValues.map((tabValue) => (
             <Tabs.Tab key={tabValue} value={tabValue}>
